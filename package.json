@@ -1,0 +1,37 @@
+{
+  "name": "dbs_api",
+  "version": "1.1.0",
+  "description": "API de los personajes de la serie \"Dragon Ball Super\" hecha con node.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GonzaloEspindola/dbs_api.git"
+  },
+  "keywords": [
+    "nodejs",
+    "API"
+  ],
+  "author": "=",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GonzaloEspindola/dbs_api/issues"
+  },
+  "homepage": "https://github.com/GonzaloEspindola/dbs_api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "standard": "^17.0.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}
