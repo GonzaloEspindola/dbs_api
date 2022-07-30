@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="../favicon.ico">
-    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" type="image/x-icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
     <title>Documentacion</title>
 </head>
 <body>
     <main class="main_docs">
         
-        <header class="header">
+        <header class="header header_doc">
             <div class="nav_logo">
                 <a href="/">
                     <img src="https://i.ibb.co/tZSjPCZ/pngwing-com-1.png" alt="Logo de la pagina"/>
@@ -21,11 +21,11 @@
             </div>
             <nav class="nav">
                 <ul class="nav-ul">
-                    <a href="/es" class="active_link nav_links">
+                    <a href="/es" class="nav_links">
                         <i class='bx bxs-home'></i>
                         INICIO
                     </a>
-                    <a href="/es/doc" class="nav_links">
+                    <a href="/es/doc" class="active_link nav_links">
                         <i class='bx bxl-dev-to'></i>
                         DOCUMENTACION
                     </a>
@@ -53,7 +53,7 @@
             <div class="container_doc">
                 <div id="rest" class="mini_container rest">
                     <h1 class="title_list">REST</h1>
-                    <h3 class="url_text">URL base: </h3><a class="url_link" href="https://dragon-ball-super-api.herokuapp.com/api">https://dragon-ball-super-api.herokuapp.com/api</a>
+                    <h3 class="url_text">URL base: </h3><a class="url_link type_url" href="https://dragon-ball-super-api.herokuapp.com/api">https://dragon-ball-super-api.herokuapp.com/api</a>
                     <p>La url base contiene la informacion sobre los recursos disponibles de la API. Todas las solicitudes devolveran datos <span class="type">json</span>.</p>
 
                     <pre>
@@ -139,7 +139,7 @@
 
                 <div id="allcharacter" class="mini_container allcharacter">
                     <h1 class="title_list">Obtener todos los personajes</h1>
-                    <h3 class="url_text">Endpoint: </h3><a class="url_link" href="https://dragon-ball-super-api.herokuapp.com/api/characters">https://dragon-ball-super-api.herokuapp.com/api/characters</a>
+                    <h3 class="url_text">Endpoint: </h3><a class="url_link type_url" href="https://dragon-ball-super-api.herokuapp.com/api/characters">https://dragon-ball-super-api.herokuapp.com/api/characters</a>
                     <p>Puedes acceder a la lista de todos los personajes usando el endpoint <span class="type">/characters</span>.</p>
 
                     <pre>
@@ -163,7 +163,7 @@
                     </pre>
 
                     <h1 class="title_list">Paginacion simple</h1>
-                    <h3 class="url_text">Endpoint: </h3><a class="url_link" href="https://dragon-ball-super-api.herokuapp.com/api/characters?limit=50">https://dragon-ball-super-api.herokuapp.com/api/characters?limit={max-characters}</a>
+                    <h3 class="url_text">Endpoint: </h3><a class="url_link type_url" href="https://dragon-ball-super-api.herokuapp.com/api/characters?limit=50">https://dragon-ball-super-api.herokuapp.com/api/characters?limit={max-characters}</a>
                     <p>Puedes acceder a cierta paginacion utilizando el parametro query <span class="type">limit</span> <span class="type">/characters?limit={max-characters}</span>. Esto devolvera un array con los personajes separados en objetos separados en base al parametro <span class="type">limit</span></p>
 
                     <pre>
@@ -179,7 +179,7 @@
                     </pre>
 
                     <h1 class="title_list">Offset y limit</h1>
-                    <h3 class="url_text">Endpoint: </h3><a class="url_link" href="https://dragon-ball-super-api.herokuapp.com/api/characters?offset=0?limit=50">https://dragon-ball-super-api.herokuapp.com/api/characters?offset={x}?limit={y}</a>
+                    <h3 class="url_text">Endpoint: </h3><a class="url_link type_url" href="https://dragon-ball-super-api.herokuapp.com/api/characters?offset=0?limit=50">https://dragon-ball-super-api.herokuapp.com/api/characters?offset={x}?limit={y}</a>
                     <p>Puedes acceder a cierta paginacion utilizando el parametro query <span class="type">offset</span> y <span class="type">limit</span> <span class="type">/characters?offset={x}?limit={y}</span>.</p>
 
                     <pre>
@@ -196,7 +196,7 @@
 
                 <div id="idcharacter" class="mini_container idcharacter">
                     <h1 class="title_list">Obtener un personaje por nombre</h1>
-                    <h3 class="url_text">Endpoint: </h3><a class="url_link" href="https://dragon-ball-super-api.herokuapp.com/api/characters/Gohan">https://dragon-ball-super-api.herokuapp.com/api/characters/{name}</a>
+                    <h3 class="url_text">Endpoint: </h3><a class="url_link type_url" href="https://dragon-ball-super-api.herokuapp.com/api/characters/Gohan">https://dragon-ball-super-api.herokuapp.com/api/characters/{name}</a>
                     <p>Puedes acceder a un personaje usando su nombre <span class="type">/characters/{name}</span>.</p>
 
                     <pre>
